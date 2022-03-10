@@ -5,7 +5,9 @@ fun main(args: Array<String>) {
     println("Pemberian nilai pertama pada varVariable = "+varVariabel)
     varVariabel = 78 //assigning seconf value to varVariable
     println("Pemberian nilai kedua pada varVariable =" +varVariabel)
+    var phi = 3.14
+    phi = 2.5
 
-    //var di Kotlin digunakan untuk mendeklarasikan variabel yang nilainya dapat berubah
-    //sepanjang program dieksekusi.
+    //val digunakan untuk mendeklarasikan
+    //variabel konstan yang nilainya tidak akan berubah selama program dieksekusi.
 }
